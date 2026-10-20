@@ -6,17 +6,17 @@ Base de datos didáctica para practicar encuestas y relaciones en SQL Server. El
 
 ## Versión estable
 
-La versión de referencia para este proyecto es **v1.0.0.0**. Para clonar exactamente esa versión:
+La versión de referencia es **v1.0.0.0**. Para obtener el script principal no necesitas instalar Git ni clonar el repositorio: abre el enlace RAW directo:
 
-```bash
-git clone --branch v1.0.0.0 --depth 1 https://github.com/vicasso-mx/pulsolab.git
-```
+[Descargar BD_PulsoLab.sql (RAW, v1.0.0.0)](https://raw.githubusercontent.com/vicasso-mx/pulsolab/refs/tags/v1.0.0.0/BD_PulsoLab.sql)
+
+El navegador mostrará el contenido SQL sin la interfaz de GitHub. Desde esa página, usa la opción de guardar del navegador para conservarlo como `BD_PulsoLab.sql`.
 
 ## Contenido de la carpeta
 
 | Archivo | Para qué sirve |
 | --- | --- |
-| [BD_PulsoLab.sql](BD_PulsoLab.sql) | Crea la base `PulsoLAB`, construye el esquema, carga datos de ejemplo, crea índices y objetos de apoyo, y muestra consultas de resumen. Incluye los vectores temáticos demo. |
+| [BD_PulsoLab.sql (RAW)](https://raw.githubusercontent.com/vicasso-mx/pulsolab/refs/tags/v1.0.0.0/BD_PulsoLab.sql) | Script principal descargable directamente desde el navegador. Crea la base `PulsoLAB`, construye el esquema, carga datos de ejemplo, crea índices y objetos de apoyo, y muestra consultas de resumen. Incluye los vectores temáticos demo. |
 | [Diagrama_BD_PulsoLab.png](Diagrama_BD_PulsoLab.png) | Diagrama visual de tablas, columnas, claves y relaciones. Imagen PNG de 3840 × 2160 (16:9). |
 | [CrearFuncionesEscalares.sql](CrearFuncionesEscalares.sql) | Crea las funciones `dbo.ObtenerNombreEncuesta` y `dbo.ObtenerNombreEncuestado`; también incluye una consulta de ejemplo sobre `dbo.Encuestados`. |
 | [CrearVista.sql](CrearVista.sql) | Crea la vista `dbo.VerResultados`, que presenta encuesta, persona, pregunta, opción seleccionada y fecha de respuesta. |
